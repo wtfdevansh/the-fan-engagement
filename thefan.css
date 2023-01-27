@@ -1,0 +1,148 @@
+/* page sections */
+
+ul{
+    position: absolute;
+    top: 60px;
+    font-family: 'Anton', sans-serif;
+    text-align: right;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    font-weight: lighter;
+}
+
+li.hom{
+    color: #fff9e0;
+    
+}
+
+li:hover{
+    color: #fff9e0;
+}
+
+li{
+    color: #0e62e2;
+    margin-right: 10px;
+    transition: 0.5s;
+
+}
+
+/* top div or section */
+
+.top-background{
+     background-image: linear-gradient(to right,#b42b4f,#143970,#070e1e);
+     height: 760px;
+}
+
+/*top  logo */
+
+.logo{
+    margin: 40px 0px 0px 40px;
+}
+
+/* phone image */
+
+.center-image{
+    margin-top: -50px;
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* top page heading text */
+
+.main-heading{
+    color: #fff9e0;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    font-size: 150px;
+    position: absolute;
+    bottom: 225px;
+    left: 150px;
+    
+}
+
+.mainheadingpart{
+    color: #fff9e0;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    font-size: 150px;
+    position: absolute;
+    bottom: 90px;
+    left: 195px;
+
+  
+}
+
+.define{
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    font-weight: lighter;
+    color: #0e62e2;
+    position: absolute;
+    bottom: 70px;
+    left: 195px;
+}
+
+/* book a demo  */
+
+.book{
+    color: #fff9e0;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    transition: 0.5s;
+}
+
+.book:hover{
+    color: #0e62e2;
+}
+
+/* scroll div */
+
+.scroll{
+    color: #0e62e2;
+    font-family: 'Anton', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.down-arrow {
+    width: 0; 
+    height: 0; 
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+      
+    border-top: 7px solid #0e62e2;
+
+    margin: 0;
+    }
+
+.scroll-arrow{
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: auto;
+    right: 50%;
+    
+}
+
+
+.scroll:hover{
+    color: #fff9e0;
+}
+
+/* phone animation */
+
+@keyframes bounce {
+    0%   {margin: -70px;}
+    50%  {margin: -50px;}
+    100% {margin: -70px;}
+  }
+  
